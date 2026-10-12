@@ -1,0 +1,58 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm/
+
+# Expo caches and generated native projects
+.expo/
+.expo-shared/
+android/
+ios/
+
+# Generated exports and build outputs
+dist*/
+web-build/
+build/
+coverage/
+*.apk
+*.aab
+*.ipa
+
+# Local working material that is not part of the app
+work/
+audio-previews/
+app-store-screenshots/
+
+# Legacy visual/audio drafts no longer referenced by the application
+assets/backgrounds/
+assets/buttons/
+assets/rewards/
+assets/ui/
+assets/audio/hint.wav
+assets/audio/layer-unlock.wav
+assets/audio/success.wav
+assets/audio/tap.wav
+scripts/create-audio-style-previews.mjs
+scripts/create-magical-lantern-audio.mjs
+scripts/generate_audio.py
+
+# Environment files and signing/service credentials
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p8
+*.p12
+*.pem
+*.mobileprovision
+credentials.json
+google-services.json
+GoogleService-Info.plist
+
+# Logs and operating-system/editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

@@ -1,0 +1,36 @@
+{
+  "name": "liva-lights",
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.25.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "start:dev": "expo start --dev-client --clear",
+    "ios": "expo run:ios",
+    "doctor": "expo-doctor",
+    "test": "npm run test:levels && npm run test:economy",
+    "test:economy": "node scripts/economy-test.mjs",
+    "test:levels": "node scripts/levels-test.mjs"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "expo": "~57.0.28",
+    "expo-asset": "~57.0.19",
+    "expo-audio": "~57.0.5",
+    "expo-constants": "~57.0.21",
+    "expo-dev-client": "~57.0.20",
+    "expo-haptics": "~57.0.3",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-google-mobile-ads": "^17.1.0",
+    "react-native-safe-area-context": "~5.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "babel-preset-expo": "~57.0.13",
+    "expo-doctor": "^1.17.0"
+  },
+  "private": true
+}
